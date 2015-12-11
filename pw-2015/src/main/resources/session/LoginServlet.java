@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet {
 		    //  req.getRequestDispatcher("PaginaInterna1.jsp").forward(req, resp);
 		} else {
 			sessao.setAttribute("usuarioLogado", false);
-		      req.getRequestDispatcher("Entrar.jsp").forward(req, resp);
+		      req.getRequestDispatcher("Entrar.html").forward(req, resp);
 		}
 		
 		

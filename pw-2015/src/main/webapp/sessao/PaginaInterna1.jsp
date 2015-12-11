@@ -23,7 +23,7 @@
 	// vai enviar para a página de login novamente
 	} else {
 %>
-	<jsp:forward page="Entrar.jsp"></jsp:forward>
+	<jsp:forward page="Entrar.html"></jsp:forward>
 <%
 }
 %>

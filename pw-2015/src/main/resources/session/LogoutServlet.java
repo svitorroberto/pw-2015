@@ -22,7 +22,7 @@ public class LogoutServlet extends HttpServlet {
     //Remove todos os objetos da sessÃ£o e a invalida.
     sessao.invalidate();
 
-    resp.sendRedirect("Entrar.jsp");
+    resp.sendRedirect("Entrar.html");
   }
 
 }

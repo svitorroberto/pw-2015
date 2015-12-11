@@ -25,7 +25,7 @@ public class MenuServlet extends HttpServlet {
     Boolean usuarioLogado = (Boolean) sessao.getAttribute("usuarioLogado");
     
     if (usuarioLogado == null || usuarioLogado == false) {
-      req.getRequestDispatcher("Entrar.jsp").forward(req, resp);  
+      req.getRequestDispatcher("Entrar.hmtl").forward(req, resp);  
     } else {
       req.getRequestDispatcher("menu.jsp").forward(req, resp);
     }
